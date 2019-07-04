@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './App.css';
-import FrontPage from './FrontPage';
+import FrontPage from './Components/FrontPage';
 
 
 function App() {
