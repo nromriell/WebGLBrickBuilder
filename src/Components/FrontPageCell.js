@@ -20,12 +20,12 @@ class FrontPageCell extends React.Component {
     }
 
     handleClick(){
-        window.location.href = this.props.link;
+        window.location.assign(this.props.link);
     }
 
     render () {
         return (
-            <button style={{margin: "auto", textAlign:"center", width:"50%", paddingTop: "50%", backgroundColor:this.fgColor}} onClick={this.handleClick} onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave}>
+            <button style={{margin: "auto", textAlign:"center", width:"50%", paddingTop: "50%", backgroundColor:this.fgColor, backgroundImage:this.props.image, backgroundPosition:"center", backgroundRepeat:"no-repeat", backgroundSize:"cover"}} onClick={this.handleClick} onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave}>
                 <div style={{margin: "auto", textAlign:"center", marginTop:"-50%", width:"100%"}}>Test</div>
             </button>
         );
