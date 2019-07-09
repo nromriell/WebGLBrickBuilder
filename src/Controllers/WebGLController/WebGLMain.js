@@ -40,7 +40,7 @@ class WebGLMain extends React.Component {
         document.addEventListener("mousemove", this.onMouseMove.bind(this));
         this.getGLContext();
 
-        const material = new WebGLMaterial(this.glContext, [1.0, 0.0, 0.0, 1.0], 0.40, VertexShader, FragmentShader);
+        //const material = new WebGLMaterial(this.glContext, [1.0, 0.0, 0.0, 1.0], 0.40, VertexShader, FragmentShader);
         const selectedMaterial = new WebGLMaterial(this.glContext, [1.0, 1.0, 0.3, 0.5], 0.80, VertexShader, FragmentShader);
         this.selectedObject = new WebGLMesh(selectedMaterial, Cube, this.camera, this.light, this.selectedPosition, [0,0,0], [1,1,1]);
         //this.objects = [new WebGLMesh(material, Cube, this.camera, this.light, [0.0, 0.0, 0], [45, 45, 45], [1,1,1])];
@@ -142,7 +142,7 @@ class WebGLMain extends React.Component {
     }
 
     onButtonDown(e) {
-        console.log("Pressed:" + e.keyCode);
+        //console.log("Pressed:" + e.keyCode);
         let direction = -1;
         switch (e.keyCode) {
             case 40: //DOWN
@@ -247,7 +247,7 @@ class WebGLMain extends React.Component {
 
 
     onButtonUp(e){
-        console.log("Pressed:"+e.keyCode);
+        //console.log("Pressed:"+e.keyCode);
     }
 
     render() {
