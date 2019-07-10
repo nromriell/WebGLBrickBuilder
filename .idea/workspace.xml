@@ -5,26 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26fc0523-e6ac-4b6f-ade7-5090487ea1aa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/mywebsite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WebGLBrickBuilder.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/FrontPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/FrontPageCell.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MenuBar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MenuItem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/Algorithms/BinaryTree.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/Algorithms/HashTable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/Algorithms/LinkedList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/Algorithms/Octree.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/Algorithms/Queue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/Algorithms/Stack.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/DataStructures/BinarySearch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/DataStructures/BreadthFirstSearch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/DataStructures/DepthFirstSearch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/DataStructures/MergeSort.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/DataStructures/QuickSort.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/WebGLController/WebGLMain.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/WebGLController/WebGLMain.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,7 +25,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Data/Cube.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="1005">
               <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
             </state>
           </provider>
@@ -61,11 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="36" column="2" lean-forward="true" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="2" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="30">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -135,19 +114,19 @@
         <option value="$PROJECT_DIR$/src/Data/ThreeDArray.js" />
         <option value="$PROJECT_DIR$/src/Controllers/WebGLController/WebGLMain.js" />
         <option value="$PROJECT_DIR$/src/Components/FrontPageCell.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/Components/AboutMe.js" />
         <option value="$PROJECT_DIR$/src/Components/ProfessionalProjects.js" />
         <option value="$PROJECT_DIR$/src/Components/BasicAlgorithms.js" />
         <option value="$PROJECT_DIR$/src/Components/FrontPage.js" />
         <option value="$PROJECT_DIR$/src/Components/MenuItem.js" />
         <option value="$PROJECT_DIR$/src/Components/MenuBar.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="229" />
-    <option name="y" value="90" />
+    <option name="x" value="50" />
+    <option name="y" value="23" />
     <option name="width" value="1399" />
     <option name="height" value="885" />
   </component>
@@ -273,7 +252,8 @@
       <option name="presentableId" value="Default" />
       <updated>1562174898332</updated>
       <workItem from="1562174901029" duration="69283000" />
-      <workItem from="1562713028626" duration="204000" />
+      <workItem from="1562713028626" duration="797000" />
+      <workItem from="1562774038780" duration="726000" />
     </task>
     <task id="LOCAL-00001" summary="Commit 4&#10;Added Features:&#10;WebGL Brick Builder&#10;Navigation to Brick Builder Page&#10;Brick Builder Image&#10;&#10;TODO:&#10;Finish up other home page items.&#10;Brick Builder: Batch same meshes, add color selection, add navigation back to home.">
       <created>1562535283822</created>
@@ -282,17 +262,23 @@
       <option name="project" value="LOCAL" />
       <updated>1562535283822</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Removed files to focus on WebGL Application.">
+      <created>1562713326890</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1562713326890</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69487000" />
+    <option name="totallyTimeSpent" value="70806000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="229" y="90" width="1399" height="885" extended-state="0" />
-    <editor active="true" />
+    <frame x="50" y="23" width="1399" height="885" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49805447" visible="true" weight="0.24963716" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49805447" visible="true" weight="0.24963716" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" sideWeight="0.5019455" side_tool="true" weight="0.24963716" />
@@ -304,7 +290,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.33246753" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.33246753" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -317,7 +303,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit 4&#10;Added Features:&#10;WebGL Brick Builder&#10;Navigation to Brick Builder Page&#10;Brick Builder Image&#10;&#10;TODO:&#10;Finish up other home page items.&#10;Brick Builder: Batch same meshes, add color selection, add navigation back to home." />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 4&#10;Added Features:&#10;WebGL Brick Builder&#10;Navigation to Brick Builder Page&#10;Brick Builder Image&#10;&#10;TODO:&#10;Finish up other home page items.&#10;Brick Builder: Batch same meshes, add color selection, add navigation back to home." />
+    <MESSAGE value="Removed files to focus on WebGL Application." />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed files to focus on WebGL Application." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/FrontPageCellData" />
@@ -339,9 +326,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/logo.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logo.svg" />
     <entry file="file://$PROJECT_DIR$/src/serviceWorker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-480">
@@ -385,86 +370,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MenuBarIcon.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controllers/Algorithms/BinaryTree.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controllers/Algorithms/HashTable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controllers/Algorithms/LinkedList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controllers/Algorithms/Octree.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controllers/Algorithms/Queue.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controllers/Algorithms/Stack.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controllers/DataStructures/BinarySearch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controllers/DataStructures/BreadthFirstSearch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controllers/DataStructures/DepthFirstSearch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controllers/DataStructures/MergeSort.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controllers/DataStructures/QuickSort.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MenuBarIcon.png" />
+    <entry file="file://$PROJECT_DIR$/src/Controllers/Algorithms/BinaryTree.js" />
+    <entry file="file://$PROJECT_DIR$/src/Controllers/Algorithms/HashTable.js" />
+    <entry file="file://$PROJECT_DIR$/src/Controllers/Algorithms/LinkedList.js" />
+    <entry file="file://$PROJECT_DIR$/src/Controllers/Algorithms/Octree.js" />
+    <entry file="file://$PROJECT_DIR$/src/Controllers/Algorithms/Queue.js" />
+    <entry file="file://$PROJECT_DIR$/src/Controllers/Algorithms/Stack.js" />
+    <entry file="file://$PROJECT_DIR$/src/Controllers/DataStructures/BinarySearch.js" />
+    <entry file="file://$PROJECT_DIR$/src/Controllers/DataStructures/BreadthFirstSearch.js" />
+    <entry file="file://$PROJECT_DIR$/src/Controllers/DataStructures/DepthFirstSearch.js" />
+    <entry file="file://$PROJECT_DIR$/src/Controllers/DataStructures/MergeSort.js" />
+    <entry file="file://$PROJECT_DIR$/src/Controllers/DataStructures/QuickSort.js" />
     <entry file="file://$PROJECT_DIR$/src/Data/WebGLObject.js" />
     <entry file="file://$PROJECT_DIR$/src/Data/VertexShader.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -518,9 +435,7 @@
     <entry file="file://$PROJECT_DIR$/src/Images/BlockEditor.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FrontPageCell.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FrontPageCell.css" />
     <entry file="file://$PROJECT_DIR$/src/Components/AnimatedItemWithIdentity.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -552,27 +467,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/FrontPage.js" />
+    <entry file="file://$PROJECT_DIR$/src/Components/ProfessionalProjects.js" />
+    <entry file="file://$PROJECT_DIR$/src/Components/AboutMe.js" />
+    <entry file="file://$PROJECT_DIR$/src/Components/BasicAlgorithms.js" />
+    <entry file="file://$PROJECT_DIR$/src/Components/FrontPageCell.js" />
+    <entry file="file://$PROJECT_DIR$/src/Components/MenuItem.js" />
+    <entry file="file://$PROJECT_DIR$/src/Components/MenuBar.js" />
     <entry file="file://$PROJECT_DIR$/src/Data/Cube.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="1005">
           <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/FrontPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/ProfessionalProjects.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -583,57 +488,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/AboutMe.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/BasicAlgorithms.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/FrontPageCell.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/MenuItem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/MenuBar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="43" column="27" lean-forward="true" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="36" column="2" lean-forward="true" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
