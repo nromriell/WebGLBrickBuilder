@@ -24,12 +24,17 @@ class WebGLMain extends React.Component {
         this.rotatingCamera = false;
         this.clearColor = [props.red, props.green, props.blue, props.alpha];
         this.lastMousePosition = null;
-        this.lastUpdateTime = new Date().getTime();
+        this.lastUpdateTime = 0;
+        this.update = this.update.bind(this);
         //this.onMouseDown = this.onMouseDown.bind(this);
         //this.onMouseUp = this.onMouseUp.bind(this);
         //this.onButtonDown = this.onButtonDown.bind(this);
         //this.onButtonUp = this.onButtonUp.bind(this);
         //this.update();
+    }
+
+    componentWillUnmount() {
+        window.removeEventListener('resize', this.update);
     }
 
     componentDidMount() {
@@ -49,6 +54,7 @@ class WebGLMain extends React.Component {
         this.generateGrid(this.gridSize, .01);
         //setInterval(this.update.bind(this), 10);
         this.update();
+        window.addEventListener('resize', this.update);
     }
 
     generateGrid(size, lineWidth)
@@ -64,9 +70,8 @@ class WebGLMain extends React.Component {
     resize(){
         // Lookup the size the browser is displaying the canvas.
         var realToCSSPixels = window.devicePixelRatio;
-        var displayWidth  = Math.floor(this.glContext.canvas.clientWidth  * realToCSSPixels);
-        var displayHeight = Math.floor(this.glContext.canvas.clientHeight * realToCSSPixels);
-
+        var displayWidth  = Math.floor(window.innerWidth  * realToCSSPixels);
+        var displayHeight = Math.floor(window.innerHeight * realToCSSPixels);
         // Check if the canvas is not the same size.
         if (this.glContext.canvas.width  !== displayWidth ||
             this.glContext.canvas.height !== displayHeight) {
@@ -76,6 +81,7 @@ class WebGLMain extends React.Component {
             this.glContext.canvas.height = displayHeight;
         }
         this.glContext.viewport(0, 0, this.glContext.canvas.width, this.glContext.canvas.height);
+        this.camera.regenerateProjection();
     }
 
     update() {
